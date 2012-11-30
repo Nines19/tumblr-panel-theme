@@ -1,0 +1,66 @@
+/* -------------------------------------------------------------------- Reset */
+*{
+	margin:0;padding:0;text-decoration:none;border:0;outline:0;
+	font:16px/18px Arial,sans-serif;
+}
+
+/* ---------------------------------------------------------------- Main Tags */
+body{
+	width:900px;margin:0 auto;position:relative;border:1px black solid;
+}
+h1{
+	font-size:2em;line-height:2em;
+}
+h2{
+	font-size:1.5em;line-height:1.5em;
+}
+h3{
+	font-size:1.1em;line-height:1.2em;
+}
+em{
+	font-style:italic;
+}
+blockquote{
+	margin:5px 10px;padding:0 10px 5px 0;
+}
+blockquote blockquote{
+	margin-top:0;margin-left:0;padding-top:0;
+}
+p{
+	padding:5px 10px;
+}
+
+/* ----------------------------------------------------------- Common Classes */
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+
+/* -------------------------------------------------------------------------- */
+#main{
+	background:#aaeeff;
+	width:500px;
+	height:100%;
+	position:absolute;
+	left:190px;right:190px;top:0px;
+	padding:10px;
+}
+#about{
+	background:#ddffee;
+	width:150px;
+	position:absolute;
+	left:0px;top:50px;
+	padding:20px;
+}
+#links{
+	background:#ddffee;
+	width:150px;
+	position:absolute;
+	right:0px;top:50px;
+	padding:20px;
+}
